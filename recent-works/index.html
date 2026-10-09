@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Works | Q2Q IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 250px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-size: 1.2rem;
+            overflow: hidden;
+        }
+
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+            /* Show when an actual image is added */
+        }
+
+        .project-links {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Mobile and Tablet optimizations */
+        @media (max-width: 768px) {
+            .project-card {
+                padding: 1.5rem;
+                margin: 1.5rem auto;
+            }
+
+            .project-image {
+                height: 200px;
+                /* Reduced image height */
+                font-size: 1rem;
+            }
+
+            .project-card h2 {
+                font-size: 1.5rem !important;
+            }
+
+            .project-desc {
+                font-size: 0.95rem;
+                /* Reduced description font size */
+                line-height: 1.5 !important;
+            }
+
+            main {
+                padding: 4rem 1.5rem !important;
+                /* Less padding on main container */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">Q2Q <span
+                style="color: var(--text-muted); font-weight: 400; font-size: 1.2rem;">IT SOLUTIONS</span></a>
+    </header>
+    <main style="padding: 6rem 2rem; text-align: center;">
+        <h1>Our Recent Works</h1>
+        <p style="margin-top: 1rem; color: var(--text-muted); max-width: 600px; margin-left: auto; margin-right: auto;">
+            Discover our cutting-edge software solutions, tailored enterprise services, and proven track record of
+            driving digital transformation.
+        </p>
+
+        <!-- Sample Project Card -->
+        <div class="project-card">
+            <!-- Paste your image URL in the src="" attribute below -->
+            <img src="https://appinventiv.com/wp-content/uploads/2024/05/banner-46.webp" alt="CRM Product Image"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; background-color: #f8f9fa; border: 1px solid #eaeaea;">
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;">
+                <h2 style="font-family: 'Playfair Display', serif; margin: 0; font-size: 1.8rem;">CRM Application</h2>
+                <span
+                    style="background-color: #000; color: #fff; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">Product</span>
+            </div>
+            <p class="project-desc" style="color: var(--text-muted); line-height: 1.6;">
+              Explore our innovative solutions designed to simplify workflows and improve business efficiency. Discover how our technology helps businesses solve real-world challenges and achieve their goals.
+            </p>
+
+           <!-- <div class="project-links">
+                <a href="https://dem0-crm.vercel.app/" target="_blank" class="btn btn-black">Live Product</a>
+            </div> -->
+        </div>
+
+        <!-- Sample Project Card -->
+          <div class="project-card">
+            <!-- Paste your image URL in the src="" attribute below --> 
+             <img src="https://s3-alpha.figma.com/hub/file/4389411049/438bfadc-d648-433d-b843-4d7554f1b05c-cover.png" alt="FURNITURE SHOP Product Image"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; background-color: #f8f9fa; border: 1px solid #eaeaea;">
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;">
+                <h2 style="font-family: 'Playfair Display', serif; margin: 0; font-size: 1.8rem;">Web Development</h2>
+                <span
+                    style="background-color: #000; color: #fff; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">Service</span>
+            </div>
+            <p class="project-desc" style="color: var(--text-muted); line-height: 1.6;">
+                A modern website designed to showcase the shop’s products, services, and business information. Built to enhance the customer experience and help the business grow online.
+
+            </p>
+
+          <!--   <div class="project-links">
+                <a href="https://frames.vercel.app" target="_blank" class="btn btn-black">Live Product</a>
+            </div> -->
+        </div> 
+
+         <!-- Sample Project Card -->
+        <!--   <div class="project-card">
+            ****You can replace the div below with an actual <img> tag when ready*** 
+             <img src="IMAGE_URL" alt="Frames Product Image"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; background-color: #f8f9fa; border: 1px solid #eaeaea;">
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;">
+                <h2 style="font-family: 'Playfair Display', serif; margin: 0; font-size: 1.8rem;">PRODUCT NAME</h2>
+                <span
+                    style="background-color: #000; color: #fff; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">Product</span>
+            </div>
+            <p class="project-desc" style="color: var(--text-muted); line-height: 1.6;">
+                A comprehensive description of the Frames product. This sample showcases the features, modern
+                architecture, and the specific problems it solves for our clients. You can update this text to describe
+                the project in detail.
+            </p>
+
+            <div class="project-links">
+                <a href="https://frames.vercel.app" target="_blank" class="btn btn-black">Live Product</a>
+            </div>
+        </div> -->
+
+         <!-- Sample Project Card -->
+        <!--   <div class="project-card">
+            ****You can replace the div below with an actual <img> tag when ready*** 
+             <img src="IMAGE_URL" alt="Frames Product Image"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; background-color: #f8f9fa; border: 1px solid #eaeaea;">
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;">
+                <h2 style="font-family: 'Playfair Display', serif; margin: 0; font-size: 1.8rem;">PRODUCT NAME</h2>
+                <span
+                    style="background-color: #000; color: #fff; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">Product</span>
+            </div>
+            <p class="project-desc" style="color: var(--text-muted); line-height: 1.6;">
+                A comprehensive description of the Frames product. This sample showcases the features, modern
+                architecture, and the specific problems it solves for our clients. You can update this text to describe
+                the project in detail.
+            </p>
+
+            <div class="project-links">
+                <a href="https://frames.vercel.app" target="_blank" class="btn btn-black">Live Product</a>
+            </div>
+        </div> -->
+
+         <!-- Sample Project Card -->
+        <!--   <div class="project-card">
+            ****You can replace the div below with an actual <img> tag when ready*** 
+             <img src="IMAGE_URL" alt="Frames Product Image"
+                style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; background-color: #f8f9fa; border: 1px solid #eaeaea;">
+
+            <div
+                style="display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 0.75rem;">
+                <h2 style="font-family: 'Playfair Display', serif; margin: 0; font-size: 1.8rem;">PRODUCT NAME</h2>
+                <span
+                    style="background-color: #000; color: #fff; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.75rem; font-weight: 600; font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 0.5px;">Product</span>
+            </div>
+            <p class="project-desc" style="color: var(--text-muted); line-height: 1.6;">
+                A comprehensive description of the Frames product. This sample showcases the features, modern
+                architecture, and the specific problems it solves for our clients. You can update this text to describe
+                the project in detail.
+            </p>
+
+            <div class="project-links">
+                <a href="https://frames.vercel.app" target="_blank" class="btn btn-black">Live Product</a>
+            </div>
+        </div> -->
+
+
+    </main>
+</body>
+
+</html>

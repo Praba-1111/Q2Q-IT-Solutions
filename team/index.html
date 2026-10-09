@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team | Q2Q IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .team-section-title {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            color: var(--text-main);
+            margin: 3rem auto 1rem;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin: 0 auto 2rem;
+            max-width: 800px;
+        }
+
+        .team-card {
+            background: var(--surface-color);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .team-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-color);
+        }
+
+        .team-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #E8E8E8;
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.8rem;
+            margin-right: 2rem;
+            flex-shrink: 0;
+        }
+
+        .team-info {
+            flex-grow: 1;
+        }
+
+        .team-name {
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            color: var(--text-main);
+            font-weight: 600;
+            margin-bottom: 0.2rem;
+        }
+
+        .team-role {
+            color: var(--text-main);
+            font-size: 0.95rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .team-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .team-details p {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .icon {
+            width: 16px;
+            height: 16px;
+            opacity: 0.6;
+        }
+
+        @media (max-width: 768px) {
+            .team-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 2rem 1rem;
+            }
+
+            .team-photo {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+
+            .team-details {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+    <link rel="icon" type="image/png" href="/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">Q2Q <span
+                style="color: var(--text-muted); font-weight: 400; font-size: 1.2rem;">IT SOLUTIONS</span></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../careers/index.html" target="_blank">Careers</a></li>
+                <li><a href="index.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2 class="section-title">Our Team</h2>
+
+            <!-- Leadership Team Section: Displays profiles for founders and C-level executives -->
+            <h3 class="team-section-title">Leadership Team</h3>
+            <div class="team-grid">
+                <!--Founder-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFRz5yumB-e-g/profile-displayphoto-crop_800_800/B4DZySvbcuJAAI-/0/1771988434077?e=1793232000&v=beta&t=w35IM-__8lmuFXw4OSxUXLPbskEGGgSi6Dy9SA2M2H4" 
+                        alt="Loga Prabakar VS" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=YR'">
+                    <div class="team-info">
+                        <div class="team-name">Loga Prabakar VS</div>
+                        <div class="team-role">Founder & CEO</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Infinite Computer Solutions</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Co-Founder -->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQGrWY2H5hSPRw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1698334152342?e=1793232000&v=beta&t=S5QMx7aJ85B0RUZJKBxROTkEyBtwIQL3M_AnN2rV_y4" 
+                        alt="Yukesh Ramalingam" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=YR'">
+                    <div class="team-info">
+                        <div class="team-name">Yukesh Ramalingam</div>
+                        <div class="team-role">Co-Founder & CTO</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> COSGrid Networks</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Co-Founder -->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQF7MJrAtNSK4Q/profile-displayphoto-crop_800_800/B56Z_9Y.CRLAAI-/0/1786662610193?e=1793232000&v=beta&t=mzyrmj4_1xwGkvMi502Yz3ax6HLn2geEzNt-5kYU70A" 
+                        alt="Gaurav D" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=GD'">
+                    <div class="team-info">
+                        <div class="team-name">Gaurav D</div>
+                        <div class="team-role">CIO & CPO</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Q2Q IT SOLUTIONS</p>
+                            <!-- <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Talent and HR Section: Displays profiles for human resources and talent acquisition leaders -->
+            <h3 class="team-section-title">Talent and HR</h3>
+            <div class="team-grid">
+                <!-- Head of Talent Acquisition-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQHLC2LQ1W94ww/profile-displayphoto-scale_100_100/B56ZloZpwTG0Ac-/0/1758393181562?e=1793232000&v=beta&t=aH4-1pFd8tBRh_58uSEpOpZmZWX8xol6s7HsEJz40H0" 
+                        alt="Darshika R.K" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=DR'">
+                    <div class="team-info">
+                        <div class="team-name">Darshika R.K</div>
+                        <div class="team-role">Head of Talent Acquisition & CHRO</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Ex-ERP Roots</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Team Section: Displays profiles for engineers, developers, and specialists -->
+            <h3 class="team-section-title">Technical Team</h3>
+            <div class="team-grid">
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQGcbwbx8AKmKw/profile-displayphoto-crop_800_800/B56Z63E6YnHQAI-/0/1781187979823?e=1793232000&v=beta&t=4JpZU31k8HcBE9SEXCheUge-ZKCFTbPg4LZanpWSmcE" 
+                        alt="Muthu Raja" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=MR'">
+                    <div class="team-info">
+                        <div class="team-name">Muthu Raja</div>
+                        <div class="team-role">Senior Cybersecurity Specialist</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Danfoss</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQE5c4hBE0smkg/profile-displayphoto-crop_800_800/B56Z5JRrCKHYAI-/0/1779345830514?e=1793232000&v=beta&t=33sCHDtHyZDWSSUQyY0CBRbMGo3aE_y56wwfBzgc6Zw" 
+                        alt="Kaviya R" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=KR'">
+                    <div class="team-info">
+                        <div class="team-name">Kaviya R</div>
+                        <div class="team-role">Senior Cybersecurity Specialist</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> CLOUDVICE</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQEOXwrOkwbV2A/profile-displayphoto-shrink_400_400/B56ZWQWN4sGQAk-/0/1741883499559?e=1793232000&v=beta&t=GEmP-nxRci01ZeFcaaMc8jZ8NdEh4rtuc_pTTTMJ288"
+                        alt="Pavithran T" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=PT'">
+                    <div class="team-info">
+                        <div class="team-name">Pavithran T</div>
+                        <div class="team-role">Security Engineer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Wipro Connected Services</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQGp8KdnsL-jmA/profile-displayphoto-crop_800_800/B56Z6ENvIBKwAI-/0/1780334655326?e=1793232000&v=beta&t=MQF54XY6emV6tqYYbS64gm14K9wiyv6jV5ekQaAfERY" 
+                        alt="Jayshree Ranganathan" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=JR'">
+                    <div class="team-info">
+                        <div class="team-name">Jayshree Ranganathan</div>
+                        <div class="team-role">Senior Security Analyst & Software Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Bahwan Cybertek</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQEQqBbf-MSKNA/profile-displayphoto-scale_200_200/B56Z1zD6J1GwAc-/0/1775751900103?e=1793232000&v=beta&t=uZf6_2L8FNVeMvqSzl8jm0cV3B2FlESdc9BQ5rkQFDs" 
+                        alt="Hemavarna S" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=HS'">
+                    <div class="team-info">
+                        <div class="team-name">Hemavarna S</div>
+                        <div class="team-role">Cloud & Cybersecurity Engineer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> HYLAND</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQFZrWftyXdkBg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718302399744?e=1793232000&v=beta&t=GRF9pVAITZPfotzCQylqmq_8UHPKG8UJbi-ph91UpI4" 
+                        alt="Philip James" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=PJ'">
+                    <div class="team-info">
+                        <div class="team-name">Philip James</div>
+                        <div class="team-role">Penetration Testing , Secure Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Ex-AppXcess</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <div class="team-card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQF7MJrAtNSK4Q/profile-displayphoto-crop_800_800/B56Z_9Y.CRLAAI-/0/1786662610193?e=1793232000&v=beta&t=mzyrmj4_1xwGkvMi502Yz3ax6HLn2geEzNt-5kYU70A" 
+                        alt="Gaurav D" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=GD'">
+                    <div class="team-info">
+                        <div class="team-name">Gaurav D</div>
+                        <div class="team-role">AI Security Engineer & Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Q2Q IT SOLUTIONS</p>
+                            <!-- <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 2+ Years Experience</p> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Profile-->
+                <!--  <div class="team-card">
+                    <img src="../Images/philip.jpg" alt="Philip James" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=PJ'">
+                    <div class="team-info">
+                        <div class="team-name">Philip James</div>
+                        <div class="team-role">Penetration Testing , Secure Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Ex-AppXcess</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!--  <div class="team-card">
+                    <img src="../Images/philip.jpg" alt="Philip James" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=PJ'">
+                    <div class="team-info">
+                        <div class="team-name">Philip James</div>
+                        <div class="team-role">Penetration Testing , Secure Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Ex-AppXcess</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div> -->
+                <!--  <div class="team-card">
+                    <img src="../Images/philip.jpg" alt="Philip James" class="team-photo"
+                        onerror="this.src='https://via.placeholder.com/80/E8E8E8/999999?text=PJ'">
+                    <div class="team-info">
+                        <div class="team-name">Philip James</div>
+                        <div class="team-role">Penetration Testing , Secure Developer</div>
+                        <div class="team-details">
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg> Ex-AppXcess</p>
+                            <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg> 1+ Years Experience</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <script src="/components/footer.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
