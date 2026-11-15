@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Clients | Q2Q IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .clients-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .client-card {
+            background: var(--card-bg, #f9f9f9);
+            border: 1px solid var(--border-color, #eaeaea);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .client-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .client-logo {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .client-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .client-service {
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">Q2Q <span
+                style="color: var(--text-muted); font-weight: 400; font-size: 1.2rem;">IT SOLUTIONS</span></a>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="../services.html">Solutions</a></li>
+                    <li><a href="../index.html#industries">Industries</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../team/index.html" target="_blank">Team</a></li>
+                </ul>
+            </nav>
+            <a href="../intake/index.html" class="btn btn-outline">Get Started</a>
+        </div>
+    </header>
+
+    <main style="padding-top: 120px; padding-bottom: 60px;">
+        <h1 style="text-align: center; margin-bottom: 2rem; font-family: 'Playfair Display', serif;">Our Clients</h1>
+        <div class="clients-grid">
+            <div class="client-card">
+                <img src="../Clients_Logo/SriKrishanFurnitures.jpg" alt="Sri Krishan Furnitures" class="client-logo"
+                    style="max-width: 100%; height: auto; max-height: 80px; object-fit: contain; margin-bottom: 1rem;">
+                <h3 class="client-name">Sri Krishna Wooden Furnitures</h3>
+                <div class="client-service">Service: Web Development & CRM Solutions</div>
+                <p>Delivered user-friendly website and a seamless CRM system.</p>
+            </div>
+            <!--  <div class="client-card">
+                <img src="../Clients_Logo/Radha Krishan Foot Fouching wallpaper.jpg" alt="HealthPlus Network Logo"
+                    class="client-logo"
+                    style="max-width: 100%; height: auto; max-height: 80px; object-fit: contain; margin-bottom: 1rem;">
+                <h3 class="client-name">HealthPlus Network</h3>
+                <div class="client-service">Service: Cloud Migration & IT Support</div>
+                <p>Seamlessly migrated patient databases to a HIPAA-compliant cloud environment.</p>
+            </div>-->
+
+            <!--     <div class="client-card">
+                <img src="../Clients_Logo/Radha Krishan Foot Fouching wallpaper.jpg"
+                    alt="RetailNova Logo" class="client-logo"
+                    style="max-width: 100%; height: auto; max-height: 80px; object-fit: contain; margin-bottom: 1rem;">
+                <h3 class="client-name">RetailNova</h3>
+                <div class="client-service">Service: Custom E-Commerce Platform</div>
+                <p>Developed a scalable e-commerce solution handling over 10k daily transactions.</p>
+            </div>   -->
+        </div>
+    </main>
+</body>
+
+</html>
